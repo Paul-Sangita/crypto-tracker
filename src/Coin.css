@@ -8,6 +8,7 @@
     flex-direction: row;
     justify-items: start;
     align-items: center;
+    justify-content: space-around;
     height: 80px;
     border-bottom: 1px solid #d7d7d7;
     width: 900px;
@@ -18,6 +19,7 @@
     align-items: center;
     padding-right: 24px;
     min-width: 300px;
+    margin-left: 1rem;
 }
 
 .coin h1 {
@@ -38,12 +40,18 @@
 .coin-data {
     display: contents;
     text-align: center;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
 }
 
 .coin-price {
-    width: 110px;
+    width: 90px;
+}
+
+.coin-data .coin-price {
+    width: 90px;
+    margin-left: -9.5rem;
+    margin-right: 4rem;
 }
 
 .coin-volume {
@@ -56,6 +64,7 @@
 
 .coin-percent {
     width: 80px;
+    /* width: 100%; */
 }
 
 .red {

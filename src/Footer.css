@@ -1,0 +1,26 @@
+.footer-container {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 0.8rem;
+    padding-top: 0.5rem;
+    background-color: rgb(3, 4, 15);
+}
+
+.footer {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    color: #e2e2e2;
+}
+
+.footer-icon {
+    width: 100%;
+    font-size: 20px;
+}
+
+.footer-icon a {
+    padding-right: 0.8rem;
+    padding-inline-start: 0.5rem;
+}

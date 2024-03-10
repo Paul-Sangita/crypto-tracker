@@ -1,0 +1,49 @@
+.coin-head-container {
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    width: 8rem;
+    margin-right: 6.5%;
+}
+
+.coin-col {
+    align-items: center;
+}
+
+.head-coin {
+    align-items: center;
+    text-align: center;
+    /* padding: 40px; */
+
+}
+
+.head-coin .coin-data-head {
+    display: inline-flex;
+    align-items: center;
+}
+
+.coin-data-head .coin-percent {
+    margin-left: 0;
+}
+
+.head-coin .coin-data-head {
+    width: 85%;
+}
+
+.coin-heading {
+    padding-right: 5px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.head-coin img {
+    height: 70px;
+    width: 70px;
+    margin-top: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.coin-data-head {
+    font-size: 18px;
+    font-weight: 700;
+}
